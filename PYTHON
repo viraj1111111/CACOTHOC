@@ -1,0 +1,23 @@
+class Mobile :
+
+  def __init__ (self,color,brand,price):
+    self.color = color
+    self.brand = brand
+    self.price = price
+
+
+mobile1 = Mobile("white", "apple", 1000000000000)
+mobile2 = Mobile("black","samsung", 100000)
+mobile3 = Mobile ("red","xiomi", 100)    
+
+print(mobile1.color)
+print(mobile1.brand)
+print(mobile1.price)
+
+print(mobile2.color)
+print(mobile2.brand)
+print(mobile2.price)
+
+print(mobile3.color)
+print(mobile3.brand)
+print(mobile3.price)
